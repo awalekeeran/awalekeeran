@@ -3,7 +3,6 @@
 </div>
 
 <h3 align="center">💻 Software Engineer | .NET & C# Specialist</h3>
-<p align="center">Making complex code simple, one post at a time</p>
 
 <p align="center">
   <a href="https://linkedin.com/in/awalekiran"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -17,25 +16,56 @@
 ### 👨‍💻 About Me
 
 ```csharp
-public class KiranAwale 
+/// <summary>
+/// Software Developer Profile - Kiran Awale
+/// Demonstrates: Clean code, OOP principles, and modern C# features
+/// </summary>
+public sealed record Developer
 {
-    public string Name => "Kiran Awale";
-    public string Role => "Software Engineer";
-    public string Location => "India"; // Update as needed
-    public string[] FocusOn => new[] 
-    { 
-        ".NET Development",
-        "Clean Architecture", 
-        "Teaching & Content Creation" 
+    public string Name { get; init; } = "Kiran Awale";
+    public string Role { get; init; } = "Software Engineer | .NET Specialist";
+    public string Location { get; init; } = "India";
+    
+    public IReadOnlyList<string> TechStack { get; init; } = new[]
+    {
+        ".NET / C#", "ASP.NET Core", "Azure", "Docker", "Clean Architecture"
     };
     
-    public string CurrentlyLearning => "AI Integration in .NET";
-    public string[] Hobbies => new[] { "Coding", "Content Creation", "Gaming" };
-    
-    public void SayHi() 
+    public IReadOnlyList<string> CurrentFocus { get; init; } = new[]
     {
-        Console.WriteLine("Thanks for stopping by! Let's build something amazing together 🚀");
+        "Building scalable enterprise apps",
+        "Creating educational content @carbonfin7",
+        "Learning AI integration in .NET"
+    };
+
+    /// <summary>
+    /// Prints a friendly greeting to visitors
+    /// </summary>
+    public void SayHello()
+    {
+        Console.WriteLine($"""
+            👋 Hey! I'm {Name}
+            💼 {Role}
+            📍 {Location}
+            
+            🚀 Currently: {string.Join(", ", CurrentFocus)}
+            🛠️ Tech Stack: {string.Join(" | ", TechStack)}
+            
+            Thanks for stopping by! Let's build something amazing! 🚀
+            """);
     }
+
+    /// <summary>
+    /// Returns formatted contact information
+    /// </summary>
+    public string GetContactInfo() => 
+        """
+        📫 Let's Connect:
+        • LinkedIn: linkedin.com/in/awalekiran
+        • Instagram: @carbonfin7
+        • YouTube: @carbonfin7
+        • Website: kiranawale.dev
+        """;
 }
 ```
 
