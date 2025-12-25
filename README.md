@@ -191,13 +191,221 @@ public sealed record Developer
 ➡️ **[View all posts on carbonfin7.dev](https://carbonfin7.dev)**
 
 ---
-
-## 💼 Featured Projects
+## 💼 Project Portfolio
 
 <div align="center">
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=DevContentHub&theme=algolia)](https://github.com/awalekeeran/DistributedQueue.Kafka)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=PROJECT_NAME&theme=algolia)](https://github.com/awalekeeran/URL-Shortener)
+### 🗂️ Organized by Category
+
+</div>
+
+---
+
+### 🚀 **Full-Stack Applications**
+
+<table>
+<tr>
+<td width="50%">
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=DevContentHub&theme=tokyonight" alt="DevContentHub"/>
+</div>
+
+#### 📱 DevContentHub
+
+Multi-platform educational content management system for .NET developers.
+
+**🔧 Stack:** `.NET 8` `React` `TypeScript` `Azure` `Docker`
+
+**🔗 Links:**
+- 📖 [README](https://github.com/YOUR_USERNAME/DevContentHub#readme) • 🚀 [Demo](https://demo.com) • 📘 [Docs](https://github.com/YOUR_USERNAME/DevContentHub/wiki)
+
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/DevContentHub?style=flat-square)
+![Issues](https://img.shields.io/github/issues/YOUR_USERNAME/DevContentHub?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/DevContentHub?style=flat-square)
+
+</td>
+<td width="50%">
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=ECommercePlatform&theme=tokyonight" alt="ECommerce"/>
+</div>
+
+#### 🛒 ECommercePlatform
+
+Full-featured e-commerce solution with payment integration.
+
+**🔧 Stack:** `.NET 8` `Angular` `SQL Server` `Redis` `Stripe`
+
+**🔗 Links:**
+- 📖 [README](https://github.com/YOUR_USERNAME/ECommercePlatform#readme) • 🎥 [Video](https://youtube.com) • 📊 [Metrics](https://github.com/YOUR_USERNAME/ECommercePlatform/wiki/Metrics)
+
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/ECommercePlatform?style=flat-square)
+![Issues](https://img.shields.io/github/issues/YOUR_USERNAME/ECommercePlatform?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/ECommercePlatform?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+---
+
+### ⚙️ **Backend Services & APIs**
+
+<table>
+<tr>
+<td width="50%">
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=NotificationSystem&theme=dark" alt="NotificationSystem"/>
+</div>
+
+#### 🔐 NotificationSystem
+
+Enterprise-grade notification service with multi-channel support.
+
+**🔧 Stack:** `.NET 8` `Azure Functions` `RabbitMQ` `Redis` `PostgreSQL`
+
+**🔗 Links:**
+- 📖 [README](https://github.com/YOUR_USERNAME/NotificationSystem#readme) • 🏗️ [Architecture](https://github.com/YOUR_USERNAME/NotificationSystem/wiki/Architecture) • 🔧 [Setup](https://github.com/YOUR_USERNAME/NotificationSystem/wiki/Setup)
+
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/NotificationSystem?style=flat-square)
+![Forks](https://img.shields.io/github/forks/YOUR_USERNAME/NotificationSystem?style=flat-square)
+
+</td>
+<td width="50%">
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=AuthenticationService&theme=dark" alt="Auth"/>
+</div>
+
+#### 🔑 AuthenticationService
+
+OAuth 2.0 / OpenID Connect authentication service.
+
+**🔧 Stack:** `.NET 8` `IdentityServer` `JWT` `Redis` `SQL Server`
+
+**🔗 Links:**
+- 📖 [README](https://github.com/YOUR_USERNAME/AuthenticationService#readme) • 🛡️ [Security](https://github.com/YOUR_USERNAME/AuthenticationService/wiki/Security) • 📋 [API Docs](https://github.com/YOUR_USERNAME/AuthenticationService/wiki/API)
+
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/AuthenticationService?style=flat-square)
+![Forks](https://img.shields.io/github/forks/YOUR_USERNAME/AuthenticationService?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🎨 **Templates & Boilerplates**
+
+<table>
+<tr>
+<td width="50%">
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=CleanArchitectureTemplate&theme=algolia" alt="Template"/>
+</div>
+
+#### 🏗️ CleanArchitectureTemplate
+
+Production-ready .NET template with best practices.
+
+**🔧 Stack:** `.NET 8` `CQRS` `MediatR` `FluentValidation` `EF Core`
+
+**🔗 Links:**
+- 📖 [README](https://github.com/YOUR_USERNAME/CleanArchitectureTemplate#readme) • 🚀 [Quick Start](https://github.com/YOUR_USERNAME/CleanArchitectureTemplate/wiki/Quick-Start) • 📐 [Diagrams](https://github.com/YOUR_USERNAME/CleanArchitectureTemplate/wiki/Diagrams)
+
+![Downloads](https://img.shields.io/github/downloads/YOUR_USERNAME/CleanArchitectureTemplate/total?style=flat-square)
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/CleanArchitectureTemplate?style=flat-square)
+
+</td>
+<td width="50%">
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=MicroservicesStarter&theme=algolia" alt="Microservices"/>
+</div>
+
+#### 🔄 MicroservicesStarter
+
+Microservices starter kit with service discovery.
+
+**🔧 Stack:** `.NET 8` `Docker` `Kubernetes` `Consul` `Ocelot`
+
+**🔗 Links:**
+- 📖 [README](https://github.com/YOUR_USERNAME/MicroservicesStarter#readme) • 📦 [Packages](https://github.com/YOUR_USERNAME/MicroservicesStarter/packages) • 🎯 [Examples](https://github.com/YOUR_USERNAME/MicroservicesStarter/wiki/Examples)
+
+![Downloads](https://img.shields.io/github/downloads/YOUR_USERNAME/MicroservicesStarter/total?style=flat-square)
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/MicroservicesStarter?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🤖 **AI & Machine Learning**
+
+<table>
+<tr>
+<td width="50%">
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=AI-DotNet-Integration&theme=radical" alt="AI"/>
+</div>
+
+#### 🧠 AI-DotNet-Integration
+
+AI service integration examples for .NET developers.
+
+**🔧 Stack:** `.NET 8` `OpenAI API` `Azure AI` `ML.NET` `LangChain`
+
+**🔗 Links:**
+- 📖 [README](https://github.com/YOUR_USERNAME/AI-DotNet-Integration#readme) • 💡 [Tutorials](https://github.com/YOUR_USERNAME/AI-DotNet-Integration/wiki/Tutorials) • 🎥 [Videos](https://youtube.com/playlist)
+
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/AI-DotNet-Integration?style=flat-square)
+![Watchers](https://img.shields.io/github/watchers/YOUR_USERNAME/AI-DotNet-Integration?style=flat-square)
+
+</td>
+<td width="50%">
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=MLNetExamples&theme=radical" alt="ML.NET"/>
+</div>
+
+#### 📊 MLNetExamples
+
+Machine learning examples using ML.NET framework.
+
+**🔧 Stack:** `.NET 8` `ML.NET` `ONNX` `TensorFlow` `scikit-learn`
+
+**🔗 Links:**
+- 📖 [README](https://github.com/YOUR_USERNAME/MLNetExamples#readme) • 📈 [Models](https://github.com/YOUR_USERNAME/MLNetExamples/wiki/Models) • 🔬 [Experiments](https://github.com/YOUR_USERNAME/MLNetExamples/wiki/Experiments)
+
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/MLNetExamples?style=flat-square)
+![Watchers](https://img.shields.io/github/watchers/YOUR_USERNAME/MLNetExamples?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+### 🗂️ View More Projects by Category
+
+<p>
+  <a href="https://github.com/YOUR_USERNAME?tab=repositories&q=&type=&language=csharp&sort=stargazers">
+    <img src="https://img.shields.io/badge/All_C%23_Projects-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C# Projects"/>
+  </a>
+  <a href="https://github.com/YOUR_USERNAME?tab=repositories&q=&type=&language=typescript&sort=stargazers">
+    <img src="https://img.shields.io/badge/All_TypeScript_Projects-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Projects"/>
+  </a>
+  <a href="https://github.com/YOUR_USERNAME?tab=repositories">
+    <img src="https://img.shields.io/badge/View_All_30+_Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="All Projects"/>
+  </a>
+</p>
 
 </div>
 
