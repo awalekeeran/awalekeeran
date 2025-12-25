@@ -5,10 +5,18 @@
 <h3 align="center">💻 Software Engineer | .NET & C# Specialist</h3>
 
 <p align="center">
-  <a href="https://linkedin.com/in/awalekiran"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://instagram.com/carbonfin7"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://youtube.com/@carbonfin7"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://linkedin.com/in/awalekiran">
+    <img src="https://img.icons8.com/color/96/000000/linkedin.png" alt="LinkedIn" width="60"/>
+  </a>
+  <a href="https://instagram.com/carbonfin7">
+    <img src="https://img.icons8.com/fluency/96/000000/instagram-new.png" alt="Instagram" width="60"/>
+  </a>
+  <a href="https://youtube.com/@carbonfin7">
+    <img src="https://img.icons8.com/color/96/000000/youtube-play.png" alt="YouTube" width="60"/>
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.icons8.com/color/96/000000/gmail-new.png" alt="Gmail" width="60"/>
+  </a>
 </p>
 
 ---
