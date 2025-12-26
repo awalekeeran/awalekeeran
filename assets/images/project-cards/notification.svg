@@ -1,0 +1,286 @@
+<svg width="500" height="320" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- 3D Radial gradient for depth (center glow) -->
+    <radialGradient id="radialDepth_notification" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#1e2838;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#171b28;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0d15;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Diagonal gradient overlay for 3D effect -->
+    <linearGradient id="diagonalGradient_notification" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1520;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#1a2030;stop-opacity:0.9" />
+      <stop offset="40%" style="stop-color:#212a3d;stop-opacity:0.7" />
+      <stop offset="60%" style="stop-color:#1a2030;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0a0d15;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 3D Light reflection from top-left -->
+    <linearGradient id="lightReflection_notification" x1="0%" y1="0%" x2="50%" y2="50%">
+      <stop offset="0%" style="stop-color:#7C4DFF;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#7C4DFF;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#7C4DFF;stop-opacity:0" />
+    </linearGradient>
+    
+    <!-- Bottom shadow for depth -->
+    <linearGradient id="bottomShadow_notification" x1="0%" y1="80%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.6" />
+    </linearGradient>
+    
+    <!-- Header gradient with 3D effect -->
+    <linearGradient id="headerGradient_notification" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C4DFF;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#7C4DFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C4DFF;stop-opacity:0.7" />
+    </linearGradient>
+    
+    <!-- Accent glow gradient -->
+    <radialGradient id="accentGlow_notification" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#7C4DFF;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#7C4DFF;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#7C4DFF;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Icon circle gradient (purple to theme color) -->
+    <linearGradient id="iconCircleGradient_notification" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#512BD4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C4DFF;stop-opacity:1" />
+    </linearGradient>
+    
+    <style>
+      .card-bg {
+        stroke: #7C4DFF;
+        stroke-width: 2;
+      }
+      .card-bg:hover {
+        stroke: #7C4DFF;
+        stroke-width: 3;
+        filter: drop-shadow(0 0 20px #7C4DFF60);
+      }
+      .card-header {
+        fill: url(#headerGradient_notification);
+      }
+      .title {
+        fill: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+      }
+      .emoji {
+        font-size: 24px;
+      }
+      .description {
+        fill: #b8b9c5;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+      }
+      .tech-label {
+        fill: #7C4DFF;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .tech-badge {
+        fill: #2a2b37;
+        stroke: #7C4DFF;
+        stroke-width: 1;
+      }
+      .tech-text {
+        fill: #ffffff;
+        font-family: 'Consolas', 'Courier New', monospace;
+        font-size: 11px;
+      }
+      .link-text {
+        fill: #b8b9c5;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 11px;
+        cursor: pointer;
+      }
+      .link-text:hover {
+        fill: #7C4DFF;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+      }
+      @keyframes slideIn {
+        from { transform: translateX(-20px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+      }
+      .animate-fade {
+        animation: fadeIn 0.6s ease-out;
+      }
+      .animate-slide {
+        animation: slideIn 0.8s ease-out;
+      }
+      .animate-pulse {
+        animation: pulse 2s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Main card background with 3D layered effect -->
+  <rect width="500" height="320" fill="url(#radialDepth_notification)" rx="12"/>
+  <rect width="500" height="320" fill="url(#diagonalGradient_notification)" rx="12"/>
+  <rect width="500" height="320" fill="url(#lightReflection_notification)" rx="12"/>
+  <rect width="500" height="320" fill="url(#accentGlow_notification)" rx="12"/>
+  <rect width="500" height="320" fill="url(#bottomShadow_notification)" rx="12"/>
+  
+  <!-- Border -->
+  <rect width="500" height="320" fill="none" stroke="#7C4DFF" stroke-width="2" rx="12"/>
+  
+  <!-- Header Section with 3D edge highlights -->
+  <rect x="0" y="0" width="500" height="50" fill="url(#headerGradient_notification)" rx="12"/>
+  <line x1="0" y1="49" x2="500" y2="49" stroke="#7C4DFF" stroke-width="1.5" opacity="0.7"/>
+  <line x1="0" y1="50" x2="500" y2="50" stroke="#000000" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Title with Emoji in Gradient Circle -->
+  <circle cx="33" cy="30" r="18" fill="url(#iconCircleGradient_notification)" opacity="0.9"/>
+  <text x="33" y="30" font-size="20" text-anchor="middle" dominant-baseline="middle">🔐</text>
+  <text x="60" y="35" font-size="18" font-weight="bold" fill="#E0E0E0" class="card-title">Notification System</text>
+  
+  <!-- Description -->
+  <text class="description animate-fade" x="20" y="80">Enterprise-grade notification service with multi-channel support.</text>
+  
+  <!-- Tech Stack Label -->
+  <text class="tech-label" x="20" y="120">🔧 Tech Stack:</text>
+  
+  <!-- Tech Icons - Icon Boxes -->
+  <g class="animate-slide">
+    <!-- .NET8 Icon Box -->
+    <g>
+      <title>.NET8</title>
+      <circle class="tech-badge" cx="55" cy="165" r="30" fill="#1a1b27" stroke="#7C4DFF" stroke-width="1.5" opacity="0.8"/>
+      <g transform="translate(55, 165) scale(0.35)">
+        <g transform="translate(-64, -64)">
+          <g fill="#623697"><path d="M61.195 0h4.953c12.918.535 25.688 4.89 36.043 12.676 9.809 7.289 17.473 17.437 21.727 28.906 2.441 6.387 3.664 13.18 4.082 19.992v4.211c-.414 11.293-3.664 22.52-9.73 32.082-6.801 10.895-16.922 19.73-28.727 24.828A64.399 64.399 0 0165.082 128h-2.144c-11.735-.191-23.41-3.66-33.297-9.992-11.196-7.113-20.114-17.785-25.028-30.117C1.891 81.19.441 74.02 0 66.812v-4.957c.504-14.39 5.953-28.609 15.41-39.496C23.168 13.31 33.5 6.48 44.887 2.937 50.172 1.27 55.676.41 61.195 0M25.191 37.523c-.03 12.153-.011 24.305-.011 36.454 1.43.011 2.86.011 4.293.011-.075-10.433.101-20.863-.106-31.293.48.907.918 1.84 1.465 2.707C37.035 54.91 43.105 64.5 49.309 74c1.738-.023 3.476-.023 5.214.004-.003-12.16-.007-24.32.004-36.48a308.076 308.076 0 00-4.25-.012c.075 10.32-.136 20.64.125 30.949-6.507-10.352-13.101-20.645-19.695-30.945a370.85 370.85 0 00-5.516.007m38.844-.011c-.129 12.16-.004 24.32-.047 36.476 6.469-.015 12.938.024 19.41-.02a83.36 83.36 0 01.024-3.952c-5.012-.016-10.027.007-15.043-.02-.074-4.21-.004-8.426-.04-12.637 4.395-.078 8.79.012 13.18-.047-.011-1.277-.011-2.554-.019-3.832-4.387.141-8.773-.054-13.164.012.012-4.023.02-8.05.02-12.078 4.699 0 9.398-.02 14.093.012-.008-1.301 0-2.606.016-3.906-6.145-.016-12.29-.008-18.43-.008m22.602.054c.004 1.266.004 2.528.008 3.79 3.488-.04 6.972.109 10.46.035-.023 10.863.004 21.718-.011 32.574 1.46.043 2.93.035 4.39-.09-.12-5.992.118-11.988-.156-17.977.067-2.699-.07-5.394.117-8.09.106-2.14-.277-4.277-.035-6.417 3.516.047 7.035.015 10.55.015a59.774 59.774 0 01.075-3.832c-8.469-.105-16.937-.094-25.398-.008M13.55 69.094c-1.977.91-2.106 4.023-.149 5.027 1.72 1.18 4.305-.371 4.227-2.41.133-2.004-2.29-3.688-4.078-2.617m29.23 15.289c-4.277 3.469-4.226 11.195.5 14.25 2.668 1.695 6.102 1.344 8.922.215.012-.621.027-1.239.05-1.86-2.671 1.395-6.41 1.68-8.675-.61-2.965-3.237-2.297-9.269 1.613-11.476 2.211-1.164 4.907-.824 7.086.239-.007-.66-.004-1.32 0-1.98-3.097-1.099-6.922-1.04-9.496 1.222m17.207 2.71c-1.89.22-3.758 1.22-4.633 2.966-1.253 2.496-1.109 5.867.864 7.96 2.035 2.297 5.945 2.32 8.18.297 2.425-2.308 2.699-6.468.757-9.164-1.148-1.629-3.273-2.183-5.168-2.058m17.887 2.722c-1.66 2.883-1.332 7.25 1.598 9.211 2.183 1.22 4.933.832 7.074-.308-.004-.617.004-1.235.031-1.848-1.687 1.07-3.937 1.856-5.812.777-1.309-.722-1.704-2.257-1.914-3.625 2.875-.039 5.746-.082 8.625-.074-.075-1.828-.118-3.894-1.45-5.308-2.199-2.43-6.644-1.657-8.152 1.175m-8.414-2.336v12.008c.652 0 1.312 0 1.973.004.023-2.195-.04-4.394.023-6.594.016-1.27.527-2.558 1.484-3.414.801-.605 1.883-.27 2.801-.246-.012-.636-.02-1.27-.023-1.902-1.793-.398-3.336.652-4.242 2.117-.02-.633-.04-1.266-.051-1.894-.656-.024-1.313-.051-1.965-.079zm0 0"/><path d="M58.758 89.223c1.652-.805 4.023-.41 4.945 1.3 1.05 1.887 1.027 4.383-.137 6.211-1.52 2.286-5.527 1.786-6.523-.742-1.008-2.258-.617-5.484 1.715-6.77zm0 0M79.04 92.414c.046-1.574 1.144-3.137 2.726-3.48.976-.164 2.097.007 2.773.793.672.714.813 1.714.98 2.64-2.16.012-4.32-.031-6.48.047zm0 0"/></g>
+        </g>
+      </g>
+      <text class="tech-text" x="55" y="210" text-anchor="middle" font-size="8" fill="#7C4DFF" font-weight="bold">.NET8</text>
+    </g>
+    <!-- Azure Functions Icon Box -->
+    <g>
+      <title>Azure Functions</title>
+      <circle class="tech-badge" cx="140" cy="165" r="30" fill="#1a1b27" stroke="#7C4DFF" stroke-width="1.5" opacity="0.8"/>
+      <g transform="translate(140, 165) scale(0.35)">
+        <g transform="translate(-64, -64)">
+          <defs>
+    <linearGradient id="azure-functions-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0" stop-color="#fea11b"/>
+      <stop offset="0.284" stop-color="#fea51a"/>
+      <stop offset="0.547" stop-color="#feb018"/>
+      <stop offset="0.8" stop-color="#ffc314"/>
+      <stop offset="1" stop-color="#ffd70f"/>
+    </linearGradient>
+  </defs>
+  <!-- Azure Functions icon scaled and centered -->
+  <g transform="translate(9, 9) scale(6.2)">
+    <g>
+      <path d="M2.37,7.475H3.2a.267.267,0,0,1,.267.267v6.148a.533.533,0,0,1-.533.533H2.1a0,0,0,0,1,0,0V7.741a.267.267,0,0,1,.267-.267Z" transform="translate(12.507 16.705) rotate(134.919)" fill="#50e6ff"/>
+      <path d="M2.325,3.6h.833a.267.267,0,0,1,.267.267v6.583a0,0,0,0,1,0,0H2.591a.533.533,0,0,1-.533-.533V3.865A.267.267,0,0,1,2.325,3.6Z" transform="translate(5.759 0.114) rotate(44.919)" fill="#1490df"/>
+    </g>
+    <g>
+      <path d="M14.53,7.475h.833a.533.533,0,0,1,.533.533v6.148a.267.267,0,0,1-.267.267H14.8a.267.267,0,0,1-.267-.267V7.475a0,0,0,0,1,0,0Z" transform="translate(12.223 -7.555) rotate(45.081)" fill="#50e6ff"/>
+      <path d="M15.108,3.6h.833a0,0,0,0,1,0,0v6.583a.267.267,0,0,1-.267.267h-.833a.267.267,0,0,1-.267-.267V4.131a.533.533,0,0,1,.533-.533Z" transform="translate(31.022 1.222) rotate(135.081)" fill="#1490df"/>
+    </g>
+    <path d="M8.459,9.9H4.87a.193.193,0,0,1-.2-.181.166.166,0,0,1,.018-.075L8.991,1.13a.206.206,0,0,1,.186-.106h4.245a.193.193,0,0,1,.2.181.165.165,0,0,1-.035.1L8.534,7.966h4.928a.193.193,0,0,1,.2.181.176.176,0,0,1-.052.122L5.421,16.788c-.077.046-.624.5-.356-.189h0Z" fill="url(#azure-functions-gradient)"/>
+  </g>
+        </g>
+      </g>
+      <text class="tech-text" x="140" y="210" text-anchor="middle" font-size="8" fill="#7C4DFF" font-weight="bold">Azure</text>
+      <text class="tech-text" x="140" y="219" text-anchor="middle" font-size="8" fill="#7C4DFF" font-weight="bold">Functions</text>
+    </g>
+    <!-- RabbitMQ Icon Box -->
+    <g>
+      <title>RabbitMQ</title>
+      <circle class="tech-badge" cx="225" cy="165" r="30" fill="#1a1b27" stroke="#7C4DFF" stroke-width="1.5" opacity="0.8"/>
+      <g transform="translate(225, 165) scale(0.35)">
+        <g transform="translate(-64, -64)">
+          <!-- RabbitMQ Logo - Orange -->
+  <g transform="translate(14, 20)">
+    <!-- Main body rectangle -->
+    <rect x="0" y="25" width="100" height="65" rx="4" fill="#FF6600"/>
+    
+    <!-- Top left ear -->
+    <rect x="8" y="0" width="13" height="30" rx="2" fill="#FF6600"/>
+    
+    <!-- Top middle ear -->
+    <rect x="28" y="5" width="13" height="25" rx="2" fill="#FF6600"/>
+    
+    <!-- Top right ear (taller) -->
+    <rect x="48" y="0" width="13" height="30" rx="2" fill="#FF6600"/>
+    
+    <!-- Eye/Circle detail -->
+    <circle cx="75" cy="55" r="7" fill="#FFFFFF"/>
+    <circle cx="75" cy="55" r="4" fill="#FF6600"/>
+  </g>
+        </g>
+      </g>
+      <text class="tech-text" x="225" y="210" text-anchor="middle" font-size="8" fill="#7C4DFF" font-weight="bold">RabbitMQ</text>
+    </g>
+    <!-- Redis Icon Box -->
+    <g>
+      <title>Redis</title>
+      <circle class="tech-badge" cx="310" cy="165" r="30" fill="#1a1b27" stroke="#7C4DFF" stroke-width="1.5" opacity="0.8"/>
+      <g transform="translate(310, 165) scale(0.35)">
+        <g transform="translate(-64, -64)">
+          <path fill="#A41E11" d="M121.8 93.1c-6.7 3.5-41.4 17.7-48.8 21.6-7.4 3.9-11.5 3.8-17.3 1S13 98.1 6.3 94.9c-3.3-1.6-5-2.9-5-4.2V78s48-10.5 55.8-13.2c7.8-2.8 10.4-2.9 17-.5s46.1 9.5 52.6 11.9v12.5c0 1.3-1.5 2.7-4.9 4.4z"/><path fill="#D82C20" d="M121.8 80.5C115.1 84 80.4 98.2 73 102.1c-7.4 3.9-11.5 3.8-17.3 1-5.8-2.8-42.7-17.7-49.4-20.9C-.3 79-.5 76.8 6 74.3c6.5-2.6 43.2-17 51-19.7 7.8-2.8 10.4-2.9 17-.5s41.1 16.1 47.6 18.5c6.7 2.4 6.9 4.4.2 7.9z"/><path fill="#A41E11" d="M121.8 72.5C115.1 76 80.4 90.2 73 94.1c-7.4 3.8-11.5 3.8-17.3 1C49.9 92.3 13 77.4 6.3 74.2c-3.3-1.6-5-2.9-5-4.2V57.3s48-10.5 55.8-13.2c7.8-2.8 10.4-2.9 17-.5s46.1 9.5 52.6 11.9V68c0 1.3-1.5 2.7-4.9 4.5z"/><path fill="#D82C20" d="M121.8 59.8c-6.7 3.5-41.4 17.7-48.8 21.6-7.4 3.8-11.5 3.8-17.3 1C49.9 79.6 13 64.7 6.3 61.5s-6.8-5.4-.3-7.9c6.5-2.6 43.2-17 51-19.7 7.8-2.8 10.4-2.9 17-.5s41.1 16.1 47.6 18.5c6.7 2.4 6.9 4.4.2 7.9z"/><path fill="#A41E11" d="M121.8 51c-6.7 3.5-41.4 17.7-48.8 21.6-7.4 3.8-11.5 3.8-17.3 1C49.9 70.9 13 56 6.3 52.8c-3.3-1.6-5.1-2.9-5.1-4.2V35.9s48-10.5 55.8-13.2c7.8-2.8 10.4-2.9 17-.5s46.1 9.5 52.6 11.9v12.5c.1 1.3-1.4 2.6-4.8 4.4z"/><path fill="#D82C20" d="M121.8 38.3C115.1 41.8 80.4 56 73 59.9c-7.4 3.8-11.5 3.8-17.3 1S13 43.3 6.3 40.1s-6.8-5.4-.3-7.9c6.5-2.6 43.2-17 51-19.7 7.8-2.8 10.4-2.9 17-.5s41.1 16.1 47.6 18.5c6.7 2.4 6.9 4.4.2 7.8z"/><path fill="#fff" d="M80.4 26.1l-10.8 1.2-2.5 5.8-3.9-6.5-12.5-1.1 9.3-3.4-2.8-5.2 8.8 3.4 8.2-2.7L72 23zM66.5 54.5l-20.3-8.4 29.1-4.4z"/><ellipse fill="#fff" cx="38.4" cy="35.4" rx="15.5" ry="6"/><path fill="#7A0C00" d="M93.3 27.7l17.2 6.8-17.2 6.8z"/><path fill="#AD2115" d="M74.3 35.3l19-7.6v13.6l-1.9.8z"/>
+        </g>
+      </g>
+      <text class="tech-text" x="310" y="210" text-anchor="middle" font-size="8" fill="#7C4DFF" font-weight="bold">Redis</text>
+    </g>
+  </g>
+
+  <!-- Links Section -->
+  <!-- <text class="tech-label" x="20" y="230">🔗 Links:</text> -->
+  
+  <!-- README Link -->
+  <a href="https://github.com/awalekeeran/NotificationSystem#readme" target="_blank">
+    <text class="link-text" x="20" y="250">📖 README</text>
+  </a>
+  
+  <!-- Quick Start Link -->
+  <a href="https://github.com/awalekeeran/NotificationSystem/wiki/Quick-Start" target="_blank">
+    <text class="link-text" x="120" y="250">🚀 Quick Start</text>
+  </a>
+  
+  <!-- Docs Link -->
+  <a href="https://github.com/awalekeeran/NotificationSystem/wiki" target="_blank">
+    <text class="link-text" x="230" y="250">📘 Docs</text>
+  </a>
+  
+  <!-- Download Link -->
+  <a href="https://github.com/awalekeeran/NotificationSystem/releases/latest" target="_blank">
+    <text class="link-text" x="310" y="250">📥 Download</text>
+  </a>
+  
+  <!-- Stats Section -->
+  <!-- <text class="tech-label" x="20" y="280">📊 Stats:</text> -->
+  
+  <!-- Stats Badges - Impact Focus -->
+  <!-- <rect class="tech-badge" x="20" y="260" width="80" height="20" rx="3"/> -->
+  <text class="tech-text" x="20" y="290">⭐ 86 Stars</text>
+  
+  <!-- <rect class="tech-badge" x="110" y="260" width="80" height="20" rx="3"/> -->
+  <text class="tech-text" x="110" y="290">🍴 19 Forks</text>
+  
+  <!-- <rect class="tech-badge" x="200" y="260" width="100" height="20" rx="3"/> -->
+  <text class="tech-text" x="190" y="290">📦 1.4K Downloads</text>
+
+  <!-- <rect class="tech-badge" x="310" y="260" width="90" height="20" rx="3"/> -->
+  <text class="tech-text" x="310" y="290">✅ Passing</text>
+  
+  <!-- <rect class="tech-badge" x="310" y="260" width="90" height="20" rx="3"/> -->
+  <text class="tech-text" x="380" y="290">🧪 90% Coverage</text>
+
+  <!-- Decorative Pulse Elements -->
+  <circle class="animate-pulse" cx="470" cy="30" r="8" fill="#7C4DFF" opacity="0.3"/>
+  <circle class="animate-pulse" cx="455" cy="30" r="5" fill="#7C4DFF" opacity="0.2" style="animation-delay: 0.5s"/>
+  <circle class="animate-pulse" cx="485" cy="30" r="4" fill="#7C4DFF" opacity="0.15" style="animation-delay: 1s"/>
+</svg>

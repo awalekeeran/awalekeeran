@@ -1,3 +1,7 @@
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Kiran%20Awale&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=40&desc=Making%20.NET%20Simple&descAlignY=60" width="100%" />
+</div>
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&pause=1000&color=F75C03&center=true&vCenter=true&width=500&lines=Kiran+Awale;Software+Engineer;.NET+Specialist;Creator+%40carbonfin7;Making+Code+Simple!" alt="Typing SVG" />
 </div>
@@ -202,169 +206,47 @@ public sealed record Developer
 ---
 ## 💼 Project Portfolio
 
-<div align="center">
+<div>
 
 ### 🗂️ Organized by Category
-
-</div>
 
 ---
 
 ### 🚀 **Full-Stack Applications**
 
-<table>
-<tr>
-<td width="50%">
-
-#### 📱 DevContentHub
-
-Multi-platform educational content management system for .NET developers.
-
-**🔧 Stack:** `.NET 8` `React` `TypeScript` `Azure` `Docker`
-
-**🔗 Links:**
-- 📖 [README](https://github.com/awalekeeran/DevContentHub#readme) • 🚀 [Demo](https://demo.com) • 📘 [Docs](https://github.com/awalekeeran/DevContentHub/wiki)
-
-![Stars](https://img.shields.io/github/stars/awalekeeran/DevContentHub?style=flat-square)
-![Issues](https://img.shields.io/github/issues/awalekeeran/DevContentHub?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/awalekeeran/DevContentHub?style=flat-square)
-
-</td>
-<td width="50%">
-
-#### 🛒 ECommercePlatform
-
-Full-featured e-commerce solution with payment integration.
-
-**🔧 Stack:** `.NET 8` `Angular` `SQL Server` `Redis` `Stripe`
-
-**🔗 Links:**
-- 📖 [README](https://github.com/awalekeeran/ECommercePlatform#readme) • 🎥 [Video](https://youtube.com) • 📊 [Metrics](https://github.com/awalekeeran/ECommercePlatform/wiki/Metrics)
-
-![Stars](https://img.shields.io/github/stars/awalekeeran/ECommercePlatform?style=flat-square)
-![Issues](https://img.shields.io/github/issues/awalekeeran/ECommercePlatform?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/awalekeeran/ECommercePlatform?style=flat-square)
-
-</td>
-</tr>
-</table>
+<div>
+<img src="assets/images/project-cards/devcontenthub.svg" alt="DevContentHub">
+<img src="assets/images/project-cards/ecommerce.svg" alt="ECommerce Platform">
+</div>
 
 ---
 
 ### ⚙️ **Backend Services & APIs**
 
-<table>
-<tr>
-<td width="50%">
-
-#### 🔐 NotificationSystem
-
-Enterprise-grade notification service with multi-channel support.
-
-**🔧 Stack:** `.NET 8` `Azure Functions` `RabbitMQ` `Redis` `PostgreSQL`
-
-**🔗 Links:**
-- 📖 [README](https://github.com/awalekeeran/NotificationSystem#readme) • 🏗️ [Architecture](https://github.com/awalekeeran/NotificationSystem/wiki/Architecture) • 🔧 [Setup](https://github.com/awalekeeran/NotificationSystem/wiki/Setup)
-
-![Stars](https://img.shields.io/github/stars/awalekeeran/NotificationSystem?style=flat-square)
-![Forks](https://img.shields.io/github/forks/awalekeeran/NotificationSystem?style=flat-square)
-
-</td>
-<td width="50%">
-
-#### 🔑 AuthenticationService
-
-OAuth 2.0 / OpenID Connect authentication service.
-
-**🔧 Stack:** `.NET 8` `IdentityServer` `JWT` `Redis` `SQL Server`
-
-**🔗 Links:**
-- 📖 [README](https://github.com/awalekeeran/AuthenticationService#readme) • 🛡️ [Security](https://github.com/awalekeeran/AuthenticationService/wiki/Security) • 📋 [API Docs](https://github.com/awalekeeran/AuthenticationService/wiki/API)
-
-![Stars](https://img.shields.io/github/stars/awalekeeran/AuthenticationService?style=flat-square)
-![Forks](https://img.shields.io/github/forks/awalekeeran/AuthenticationService?style=flat-square)
-
-</td>
-</tr>
-</table>
+<div>
+  <img src="assets/images/project-cards/notification.svg" alt="Notification System">
+  <img src="assets/images/project-cards/authentication.svg" alt="Authentication Service">
+</div>
 
 ---
 
 ### 🎨 **Templates & Boilerplates**
 
-<table>
-<tr>
-<td width="50%">
-
-#### 🏗️ CleanArchitectureTemplate
-
-Production-ready .NET template with best practices.
-
-**🔧 Stack:** `.NET 8` `CQRS` `MediatR` `FluentValidation` `EF Core`
-
-**🔗 Links:**
-- 📖 [README](https://github.com/awalekeeran/CleanArchitectureTemplate#readme) • 🚀 [Quick Start](https://github.com/awalekeeran/CleanArchitectureTemplate/wiki/Quick-Start) • 📐 [Diagrams](https://github.com/awalekeeran/CleanArchitectureTemplate/wiki/Diagrams)
-
-![Downloads](https://img.shields.io/github/downloads/awalekeeran/CleanArchitectureTemplate/total?style=flat-square)
-![Stars](https://img.shields.io/github/stars/awalekeeran/CleanArchitectureTemplate?style=flat-square)
-
-</td>
-<td width="50%">
-
-#### 🔄 MicroservicesStarter
-
-Microservices starter kit with service discovery.
-
-**🔧 Stack:** `.NET 8` `Docker` `Kubernetes` `Consul` `Ocelot`
-
-**🔗 Links:**
-- 📖 [README](https://github.com/awalekeeran/MicroservicesStarter#readme) • 📦 [Packages](https://github.com/awalekeeran/MicroservicesStarter/packages) • 🎯 [Examples](https://github.com/awalekeeran/MicroservicesStarter/wiki/Examples)
-
-![Downloads](https://img.shields.io/github/downloads/awalekeeran/MicroservicesStarter/total?style=flat-square)
-![Stars](https://img.shields.io/github/stars/awalekeeran/MicroservicesStarter?style=flat-square)
-
-</td>
-</tr>
-</table>
+<div>
+  <img src="assets/images/project-cards/cleanarch.svg" alt="Clean Architecture Template">
+  <img src="assets/images/project-cards/microservices.svg" alt="Microservices Starter">
+</div>
 
 ---
 
 ### 🤖 **AI & Machine Learning**
 
-<table>
-<tr>
-<td width="50%">
+<div>
+  <img src="assets/images/project-cards/ai-integration.svg" alt="AI .NET Integration">
+  <img src="assets/images/project-cards/mlnet.svg" alt="ML.NET Examples">
+</div>
 
-#### 🧠 AI-DotNet-Integration
-
-AI service integration examples for .NET developers.
-
-**🔧 Stack:** `.NET 8` `OpenAI API` `Azure AI` `ML.NET` `LangChain`
-
-**🔗 Links:**
-- 📖 [README](https://github.com/awalekeeran/AI-DotNet-Integration#readme) • 💡 [Tutorials](https://github.com/awalekeeran/AI-DotNet-Integration/wiki/Tutorials) • 🎥 [Videos](https://youtube.com/playlist)
-
-![Stars](https://img.shields.io/github/stars/awalekeeran/AI-DotNet-Integration?style=flat-square)
-![Watchers](https://img.shields.io/github/watchers/awalekeeran/AI-DotNet-Integration?style=flat-square)
-
-</td>
-<td width="50%">
-
-#### 📊 MLNetExamples
-
-Machine learning examples using ML.NET framework.
-
-**🔧 Stack:** `.NET 8` `ML.NET` `ONNX` `TensorFlow` `scikit-learn`
-
-**🔗 Links:**
-- 📖 [README](https://github.com/awalekeeran/MLNetExamples#readme) • 📈 [Models](https://github.com/awalekeeran/MLNetExamples/wiki/Models) • 🔬 [Experiments](https://github.com/awalekeeran/MLNetExamples/wiki/Experiments)
-
-![Stars](https://img.shields.io/github/stars/awalekeeran/MLNetExamples?style=flat-square)
-![Watchers](https://img.shields.io/github/watchers/awalekeeran/MLNetExamples?style=flat-square)
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -400,4 +282,8 @@ Machine learning examples using ML.NET framework.
 
 Made with ❤️ by Kiran Awale
 
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=footer" width="100%" />
 </div>
