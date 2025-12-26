@@ -194,7 +194,7 @@ public sealed record Developer
 
 <!-- Manually update or use GitHub Actions to auto-update -->
 
-- 📌 [Understanding IOptions Pattern in .NET]([https://carbonfin7.dev/ioptions](https://app.daily.dev/posts/stop-using-ioptions-wrong-in-net--61edmiecq))
+- 📌 [Understanding IOptions Pattern in .NET](https://app.daily.dev/posts/stop-using-ioptions-wrong-in-net--61edmiecq)
 - 📌 [Async/Await Best Practices](https://carbonfin7.dev/async-await)
 - 📌 [Clean Architecture in ASP.NET Core](https://carbonfin7.dev/clean-arch)
 
