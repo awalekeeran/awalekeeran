@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=250&section=header&text=Kiran%20Awale&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Engineer%20•%20.NET%20Specialist%20•%20Creator%20@carbonfin7&descAlignY=55&descSize=20" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=250&section=header&text=Keeran%20Awale&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Engineer%20•%20.NET%20Specialist%20•%20Creator%20@carbonfin7&descAlignY=55&descSize=20" width="100%" />
 </div>
 
 <h3 align="center">💻 Making .NET Simple | Building Scalable Solutions</h3>
