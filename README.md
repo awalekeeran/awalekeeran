@@ -211,36 +211,36 @@ public sealed record Developer
 
 ### 🚀 **Full-Stack Applications**
 
-<div>
-<img src="assets/images/project-cards/devcontenthub.svg" alt="DevContentHub">
-<img src="assets/images/project-cards/ecommerce.svg" alt="ECommerce Platform">
+<div style="display: flex; gap: 10px;">
+  <img src="assets/images/project-cards/devcontenthub.svg" alt="DevContentHub" width="49%">
+  <img src="assets/images/project-cards/ecommerce.svg" alt="ECommerce Platform" width="49%">
 </div>
 
 ---
 
 ### ⚙️ **Backend Services & APIs**
 
-<div>
-  <img src="assets/images/project-cards/notification.svg" alt="Notification System">
-  <img src="assets/images/project-cards/authentication.svg" alt="Authentication Service">
+<div style="display: flex; gap: 10px;">
+  <img src="assets/images/project-cards/notification.svg" alt="Notification System" width="49%">
+  <img src="assets/images/project-cards/authentication.svg" alt="Authentication Service" width="49%">
 </div>
 
 ---
 
 ### 🎨 **Templates & Boilerplates**
 
-<div>
-  <img src="assets/images/project-cards/cleanarch.svg" alt="Clean Architecture Template">
-  <img src="assets/images/project-cards/microservices.svg" alt="Microservices Starter">
+<div style="display: flex; gap: 10px;">
+  <img src="assets/images/project-cards/cleanarch.svg" alt="Clean Architecture Template" width="49%">
+  <img src="assets/images/project-cards/microservices.svg" alt="Microservices Starter" width="49%">
 </div>
 
 ---
 
 ### 🤖 **AI & Machine Learning**
 
-<div>
-  <img src="assets/images/project-cards/ai-integration.svg" alt="AI .NET Integration">
-  <img src="assets/images/project-cards/mlnet.svg" alt="ML.NET Examples">
+<div style="display: flex; gap: 10px;">
+  <img src="assets/images/project-cards/ai-integration.svg" alt="AI .NET Integration" width="49%">
+  <img src="assets/images/project-cards/mlnet.svg" alt="ML.NET Examples" width="49%">
 </div>
 
 </div>
