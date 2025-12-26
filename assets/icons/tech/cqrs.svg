@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="cqrsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#512BD4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#cqrsGradient)" opacity="0.1"/>
+  
+  <!-- Command Arrow (Left Side) -->
+  <g transform="translate(20, 30)">
+    <path d="M 0 34 L 30 34 L 30 24 L 45 39 L 30 54 L 30 44 L 0 44 Z" 
+          fill="#512BD4" stroke="#512BD4" stroke-width="2"/>
+    <text x="10" y="42" font-family="Arial, sans-serif" font-size="10" 
+          fill="white" font-weight="bold">C</text>
+  </g>
+  
+  <!-- Query Arrow (Right Side) -->
+  <g transform="translate(63, 30)">
+    <path d="M 45 34 L 15 34 L 15 24 L 0 39 L 15 54 L 15 44 L 45 44 Z" 
+          fill="#7C3AED" stroke="#7C3AED" stroke-width="2"/>
+    <text x="25" y="42" font-family="Arial, sans-serif" font-size="10" 
+          fill="white" font-weight="bold">Q</text>
+  </g>
+  
+  <!-- Separator Line -->
+  <line x1="64" y1="25" x2="64" y2="103" stroke="#512BD4" stroke-width="2" stroke-dasharray="4,4"/>
+  
+  <!-- Labels -->
+  <text x="64" y="105" font-family="Arial, sans-serif" font-size="12" 
+        fill="#512BD4" text-anchor="middle" font-weight="bold">CQRS</text>
+  <text x="64" y="118" font-family="Arial, sans-serif" font-size="8" 
+        fill="#666" text-anchor="middle">Command Query</text>
+</svg>
