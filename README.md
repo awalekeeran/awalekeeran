@@ -1,12 +1,9 @@
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Kiran%20Awale&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=40&desc=Making%20.NET%20Simple&descAlignY=60" width="100%" />
-</div>
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&pause=1000&color=F75C03&center=true&vCenter=true&width=500&lines=Kiran+Awale;Software+Engineer;.NET+Specialist;Creator+%40carbonfin7;Making+Code+Simple!" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=250&section=header&text=Kiran%20Awale&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Engineer%20•%20.NET%20Specialist%20•%20Creator%20@carbonfin7&descAlignY=55&descSize=20" width="100%" />
 </div>
 
-<h3 align="center">💻 Software Engineer | .NET & C# Specialist</h3>
+<h3 align="center">💻 Making .NET Simple | Building Scalable Solutions</h3>
 
 <p align="center">
   <a href="https://linkedin.com/in/awalekiran">
