@@ -1,0 +1,89 @@
+name: Update Project Cards
+
+on:
+  schedule:
+    # Runs daily at 11:00 PM IST (5:30 PM UTC)
+    - cron: '30 17 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Run project card generator
+        run: python generate_project_cards.py
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+      
+      - name: Create timestamp
+        if: steps.check_changes.outputs.has_changes == 'true'
+        id: timestamp
+        run: echo "date=$(date +'%Y-%m-%d-%H%M%S')" >> $GITHUB_OUTPUT
+      
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true'
+        id: create_pr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update project cards'
+          committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          branch: update-project-cards-${{ steps.timestamp.outputs.date }}
+          delete-branch: true
+          title: 'chore: update project cards'
+          body: |
+            ## Automated Project Cards Update
+            
+            This PR was automatically created by the scheduled workflow.
+            
+            ### Changes
+            - Updated project card SVGs
+            - Generated at: ${{ steps.timestamp.outputs.date }}
+            
+            **This PR will be automatically merged.**
+          labels: |
+            automated
+            project-cards
+      
+      - name: Enable auto-merge
+        if: steps.check_changes.outputs.has_changes == 'true' && steps.create_pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge ${{ steps.create_pr.outputs.pull-request-number }} --auto --squash
+      
+      - name: Wait for status checks and merge
+        if: steps.check_changes.outputs.has_changes == 'true' && steps.create_pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Waiting for PR to be ready for merge..."
+          sleep 10
+          
+          # Try to merge the PR directly (if no branch protection rules require reviews)
+          gh pr merge ${{ steps.create_pr.outputs.pull-request-number }} --squash --delete-branch || echo "Auto-merge will complete when checks pass"
