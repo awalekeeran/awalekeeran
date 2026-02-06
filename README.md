@@ -154,41 +154,6 @@ public sealed record Developer
 </div>
 
 ---
-
-## 🎨 carbonfin7 - My Content Platform
-
-<div align="center">
-
-**🎯 Mission:** Making .NET simple, one post at a time  
-**🔥 Focus:** Real code. Real solutions. Real simple.  
-**📚 Topics:** .NET | C# | ASP.NET Core | Azure | Clean Code
-
-</div>
-
-<table align="center">
-<tr>
-  <td align="center" width="33%">
-    <img src="assets/icons/social/instagram.png" width="50"/><br/>
-    <b>Instagram</b><br/>
-    <sub>Daily Tips</sub><br/>
-    <a href="https://instagram.com/carbonfin7">@carbonfin7</a>
-  </td>
-  <td align="center" width="33%">
-    <img src="assets/icons/social/youtube.png" width="50"/><br/>
-    <b>YouTube</b><br/>
-    <sub>Quick Tutorials</sub><br/>
-    <a href="https://youtube.com/@carbonfin7">@carbonfin7</a>
-  </td>
-  <td align="center" width="33%">
-    <img src="assets/icons/social/linkedin.png" width="50"/><br/>
-    <b>LinkedIn</b><br/>
-    <sub>Professional</sub><br/>
-    <a href="https://linkedin.com/in/awalekiran">Kiran Awale</a>
-  </td>
-</tr>
-</table>
-
----
 ## 💼 Project Portfolio
 
 <div>
