@@ -189,18 +189,6 @@ public sealed record Developer
 </table>
 
 ---
-
-## 📝 Latest Content
-
-<!-- Manually update or use GitHub Actions to auto-update -->
-
-- 📌 [Stop Using IOptions Wrong in .NET!](https://dev.to/carbonfin7/stop-using-ioptions-wrong-in-net-3kfj)
-- 📌 [Async/Await Best Practices](https://carbonfin7.dev/async-await)
-- 📌 [Clean Architecture in ASP.NET Core](https://carbonfin7.dev/clean-arch)
-
-➡️ **[View all posts on dev.to/carbonfin7](https://dev.to/carbonfin7)**
-
----
 ## 💼 Project Portfolio
 
 <div>
